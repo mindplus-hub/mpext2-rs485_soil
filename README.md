@@ -1,5 +1,7 @@
 # RS485 Soil Sensors
 
+![cover](extension/public/cover.png)
+
 [Upload] Mind+ upload mode extension for reading RS485 soil sensor data through the DFR0627 IIC-to-UART module.
 
 ## Extension Info
