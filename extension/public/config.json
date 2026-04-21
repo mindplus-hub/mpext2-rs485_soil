@@ -1,0 +1,28 @@
+{
+  "id": "rs485soil",
+  "version": "0.0.1",
+  "name": {
+    "zh-cn": "RS485土壤传感器",
+    "en": "RS485 Soil Sensors"
+  },
+  "description": {
+    "zh-cn": "基于DFR0627与RS485土壤传感器的读取积木",
+    "en": "Blocks for RS485 soil sensors with DFR0627"
+  },
+  "author": "nick",
+  "isDevice": false,
+  "compatibilityId": "",
+  "cover": "cover.png",
+  "sku": "",
+  "libraryConfig": [],
+  "supportDevices": {
+    "dev-DFRobot-arduinoUno": "^0.0.1",
+    "dev-DFRobot-arduinoLeonardo": "^0.0.1",
+    "dev-DFRobot-arduinoNano": "^0.0.1",
+    "dev-DFRobot-arduinoMega2560": "^0.0.1",
+    "dev-DFRobot-handpyEsp32": "^0.0.1",
+    "dev-DFRobot-unihikerK10": "^0.0.1"
+  },
+  "main": "main.js",
+  "mode": "upload"
+}

@@ -1,0 +1,47 @@
+{
+  "extension.name": "RS485 Soil Sensors",
+  "gui.blocklyText.rs485soil.groupInit": "Initialization",
+  "gui.blocklyText.rs485soil.submenu.sen0600": "SEN0600 Moisture + Temperature",
+  "gui.blocklyText.rs485soil.submenu.sen0601": "SEN0601 Moisture + Temperature + EC",
+  "gui.blocklyText.rs485soil.submenu.sen0602": "SEN0602 Moisture + Temperature + PH",
+  "gui.blocklyText.rs485soil.submenu.sen0603": "SEN0603 EC + PH",
+  "gui.blocklyText.rs485soil.submenu.sen0604": "SEN0604 Moisture + Temperature + EC + PH",
+  "gui.blocklyText.rs485soil.submenu.sen0605": "SEN0605 NPK",
+  "gui.blocklyText.rs485soil.initRs485Soil": "Initialize RS485 soil sensor [CHANNEL_ADDR] baud [BAUD]",
+  "gui.blocklyText.rs485soil.readMoistureTempToVars": "【SEN0600】Select [CHANNEL_ADDR] and read moisture + temperature once, then store to result variables",
+  "gui.blocklyText.rs485soil.updateMoistureTempEc": "【SEN0601】Select [CHANNEL_ADDR] and read moisture + temperature + EC once, then store to result variables",
+  "gui.blocklyText.rs485soil.updateMoistureTempPh": "【SEN0602】Select [CHANNEL_ADDR] and read moisture + temperature + PH once, then store to result variables",
+  "gui.blocklyText.rs485soil.updateEcPh": "【SEN0603】Select [CHANNEL_ADDR] and read EC + PH once, then store to result variables",
+  "gui.blocklyText.rs485soil.updateMoistureTempEcPh": "【SEN0604】Select [CHANNEL_ADDR] and read moisture + temperature + EC + PH once, then store to result variables",
+  "gui.blocklyText.rs485soil.updateNpk": "【SEN0605】Select [CHANNEL_ADDR] and read NPK once, then store to result variables",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_11": "UART1 · Addr 1 (IA1=1 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_01": "UART1 · Addr 2 (IA1=0 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_10": "UART1 · Addr 3 (IA1=1 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_00": "UART1 · Addr 4 (IA1=0 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_11": "UART2 · Addr 1 (IA1=1 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_01": "UART2 · Addr 2 (IA1=0 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_10": "UART2 · Addr 3 (IA1=1 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_00": "UART2 · Addr 4 (IA1=0 IA0=0)",
+  "gui.blocklyText.rs485soil.getHumiditySen0600.getHumidity": "【SEN0600】Humidity (%RH)",
+  "gui.blocklyText.rs485soil.getTemperatureSen0600.getTemperature": "【SEN0600】Temperature (°C)",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0601.getTemperature": "【SEN0601】Temperature (°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0601.getHumidity": "【SEN0601】Humidity (%RH)",
+  "gui.blocklyText.rs485soil.getEcSen0601.getEc": "【SEN0601】EC (us/cm)",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0602.getTemperature": "【SEN0602】Temperature (°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0602.getHumidity": "【SEN0602】Humidity (%RH)",
+  "gui.blocklyText.rs485soil.getPhSen0602.getPh": "【SEN0602】PH value",
+
+  "gui.blocklyText.rs485soil.getEcSen0603.getEc": "【SEN0603】EC (us/cm)",
+  "gui.blocklyText.rs485soil.getPhSen0603.getPh": "【SEN0603】PH value",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0604.getTemperature": "【SEN0604】Temperature (°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0604.getHumidity": "【SEN0604】Humidity (%RH)",
+  "gui.blocklyText.rs485soil.getEcSen0604.getEc": "【SEN0604】EC (us/cm)",
+  "gui.blocklyText.rs485soil.getPhSen0604.getPh": "【SEN0604】PH value",
+
+  "gui.blocklyText.rs485soil.getNSen0605.getN": "【SEN0605】N content (mg/kg)",
+  "gui.blocklyText.rs485soil.getPSen0605.getP": "【SEN0605】P content (mg/kg)",
+  "gui.blocklyText.rs485soil.getKSen0605.getK": "【SEN0605】K content (mg/kg)"
+}

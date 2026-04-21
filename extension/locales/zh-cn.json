@@ -1,0 +1,47 @@
+{
+  "extension.name": "RS485土壤传感器",
+  "gui.blocklyText.rs485soil.groupInit": "初始化",
+  "gui.blocklyText.rs485soil.submenu.sen0600": "SEN0600 温湿度",
+  "gui.blocklyText.rs485soil.submenu.sen0601": "SEN0601 温湿度电导率",
+  "gui.blocklyText.rs485soil.submenu.sen0602": "SEN0602 温湿度PH",
+  "gui.blocklyText.rs485soil.submenu.sen0603": "SEN0603 电导率PH",
+  "gui.blocklyText.rs485soil.submenu.sen0604": "SEN0604 温湿度电导率PH",
+  "gui.blocklyText.rs485soil.submenu.sen0605": "SEN0605 氮磷钾",
+  "gui.blocklyText.rs485soil.initRs485Soil": "初始化RS485土壤传感器 [CHANNEL_ADDR] 波特率[BAUD]",
+  "gui.blocklyText.rs485soil.readMoistureTempToVars": "【SEN0600】选择 [CHANNEL_ADDR]  获取一次温湿度数据，存入结果变量",
+  "gui.blocklyText.rs485soil.updateMoistureTempEc": "【SEN0601】选择 [CHANNEL_ADDR]  获取一次温湿度电导率数据，存入结果变量",
+  "gui.blocklyText.rs485soil.updateMoistureTempPh": "【SEN0602】选择 [CHANNEL_ADDR]  获取一次温湿度PH数据，存入结果变量",
+  "gui.blocklyText.rs485soil.updateEcPh": "【SEN0603】选择 [CHANNEL_ADDR]  获取一次电导率PH数据，存入结果变量",
+  "gui.blocklyText.rs485soil.updateMoistureTempEcPh": "【SEN0604】选择 [CHANNEL_ADDR]  获取一次温湿度电导率PH数据，存入结果变量",
+  "gui.blocklyText.rs485soil.updateNpk": "【SEN0605】选择 [CHANNEL_ADDR]  获取一次氮磷钾数据，存入结果变量",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_11": "UART1 · 地址1 (IA1=1 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_01": "UART1 · 地址2 (IA1=0 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_10": "UART1 · 地址3 (IA1=1 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_1_00": "UART1 · 地址4 (IA1=0 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_11": "UART2 · 地址1 (IA1=1 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_01": "UART2 · 地址2 (IA1=0 IA0=1)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_10": "UART2 · 地址3 (IA1=1 IA0=0)",
+  "gui.blocklyText.rs485soil.channelAddr.port_2_00": "UART2 · 地址4 (IA1=0 IA0=0)",
+  "gui.blocklyText.rs485soil.getHumiditySen0600.getHumidity": "【SEN0600】湿度(%RH)",
+  "gui.blocklyText.rs485soil.getTemperatureSen0600.getTemperature": "【SEN0600】温度(°C)",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0601.getTemperature": "【SEN0601】温度(°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0601.getHumidity": "【SEN0601】湿度(%RH)",
+  "gui.blocklyText.rs485soil.getEcSen0601.getEc": "【SEN0601】电导率(us/cm)",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0602.getTemperature": "【SEN0602】温度(°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0602.getHumidity": "【SEN0602】湿度(%RH)",
+  "gui.blocklyText.rs485soil.getPhSen0602.getPh": "【SEN0602】PH值",
+
+  "gui.blocklyText.rs485soil.getEcSen0603.getEc": "【SEN0603】电导率(us/cm)",
+  "gui.blocklyText.rs485soil.getPhSen0603.getPh": "【SEN0603】PH值",
+
+  "gui.blocklyText.rs485soil.getTemperatureSen0604.getTemperature": "【SEN0604】温度(°C)",
+  "gui.blocklyText.rs485soil.getHumiditySen0604.getHumidity": "【SEN0604】湿度(%RH)",
+  "gui.blocklyText.rs485soil.getEcSen0604.getEc": "【SEN0604】电导率(us/cm)",
+  "gui.blocklyText.rs485soil.getPhSen0604.getPh": "【SEN0604】PH值",
+
+  "gui.blocklyText.rs485soil.getNSen0605.getN": "【SEN0605】氮含量(mg/kg)",
+  "gui.blocklyText.rs485soil.getPSen0605.getP": "【SEN0605】磷含量(mg/kg)",
+  "gui.blocklyText.rs485soil.getKSen0605.getK": "【SEN0605】钾含量(mg/kg)"
+}
