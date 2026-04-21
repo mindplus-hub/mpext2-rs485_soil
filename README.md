@@ -86,6 +86,23 @@ Recommended flow:
 2. Read values using reporter blocks from the same model group.
 3. Put this sequence inside a loop for periodic sampling.
 
+## Typical Wiring Usage (I2C -> UART-to-RS485 -> Sensor)
+
+If your main controller only exposes I2C, use this topology:
+
+1. Main controller I2C (`SDA/SCL`) -> `DFR0627` (I2C to UART)
+2. `DFR0627` UART (`TX/RX`) -> `DFR0845` (UART to RS485 isolated adapter)
+3. `DFR0845` RS485 (`A/B`) -> RS485 soil sensor (`A/B`)
+4. Share `GND` and provide proper sensor power supply
+
+Then in blocks:
+
+1. Select the UART channel/address that matches `DFR0627` DIP settings (`channel_IA1IA0`)
+2. Run the model-specific "read once" block
+3. Read values from the corresponding reporter blocks
+
+> Quick note: Connect the main controller to `DFR0627` via I2C, then connect `DFR0627` to `DFR0845` via UART, and finally connect `DFR0845` to the RS485 soil sensor.
+
 ## Dependencies
 
 The generated Arduino code includes these libraries:
