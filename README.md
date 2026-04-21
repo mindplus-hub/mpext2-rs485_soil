@@ -9,6 +9,14 @@
 - Author: `nick`
 - Mode: `upload`
 - Name (ZH): `RS485土壤传感器`
+- Name (EN): `RS485 Soil Sensors`
+
+## Changelog
+
+| Version | Notes |
+| --- | --- |
+| 0.0.1 | Initial release with SEN0600~SEN0605 RS485 soil sensor support |
+
 
 ## Supported Devices
 
@@ -119,8 +127,3 @@ The generated Arduino code includes these libraries:
 Use different UART/address combinations (such as `1_11`, `1_01`, `2_11`) to distinguish sensors.  
 Call each sensor's corresponding "read once" block, then read its data reporters.
 
-## Changelog
-
-| Version | Notes |
-| --- | --- |
-| 0.0.1 | Initial release with SEN0600~SEN0605 RS485 soil sensor support |
